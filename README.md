@@ -1,8 +1,7 @@
 # Analog-Metal-Detector
-[![EDA](https://img.shields.io/badge/PCB-KiCad%20%2F%20Altium-blue)]()
+[![EDA](https://img.shields.io/badge/Altium-blue)]()
 [![Simulation](https://img.shields.io/badge/Simulation-LTspice-orange)]()
 [![Type](https://img.shields.io/badge/Design-Discrete%20Analog-brightgreen)]()
-[![Status](https://img.shields.io/badge/Hardware-Tested%20%26%20Verified-success)]()
 
 A fully analog metal detector using oscillators and multistage MOSFET amplifier circuits. This project explores the practical application of analog circuit design principles, including LC oscillators, frequency mixing, filtering, amplification, and PCB implementation.
 
