@@ -35,7 +35,7 @@ The metal detector operates by comparing the frequency difference between two LC
 - A **static oscillator** using a shielded inductor that remains unaffected by nearby objects
 - A **variable oscillator** using a [custom-wound exposed "inductor"](Images/Detecting_Coil.JPG) that changes frequency when near metal
 
-When metal approaches the variable inductor, eddy currents affect the inductance, shifting the LC oscillator frequency. The difference between the two oscillator frequencies is extracted and converted into an audible signal using a mixer and amplifier stages.
+When metal approaches the variable inductor, eddy currents affect the inductance, shifting the LC oscillator frequency. The difference between the two oscillator frequencies is extracted and converted into an audible signal known as a heterodyne beat-frequency using a mixer and amplifier stages.
 
 [Schematic](PCB_Files/Schematic_PDF.pdf)
 
@@ -52,7 +52,7 @@ Two LC oscillators generate signals near 50 kHz.
 - Static oscillator: approximately 50 kHz
 - Variable oscillator: approximately 50.1 kHz at idle (100 Hz idle buzz tone)
 
-The frequency difference increases when metal is near, producing a higher pitch beat signal.
+The frequency difference increases when metal is near, producing a higher pitch.
 
 ---
 
@@ -60,7 +60,7 @@ The frequency difference increases when metal is near, producing a higher pitch 
 
 The oscillator outputs are combined through a nonlinear MOSFET mixer stage.
 
-The mixer generates multiple frequency components, with the difference frequency: $$f_{\text{diff}} = |f_{\text{static}} - f_{\text{variable}}|$$
+The mixer generates multiple frequency components, with the heterodyne beat-frequency: $$f_{\text{diff}} = |f_{\text{static}} - f_{\text{variable}}|$$
 being the signal used for detection.
 
 ---
