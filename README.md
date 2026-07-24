@@ -1,4 +1,8 @@
 # Analog-Metal-Detector
+[![EDA](https://img.shields.io/badge/PCB-KiCad%20%2F%20Altium-blue)]()
+[![Simulation](https://img.shields.io/badge/Simulation-LTspice-orange)]()
+[![Type](https://img.shields.io/badge/Design-Discrete%20Analog-brightgreen)]()
+[![Status](https://img.shields.io/badge/Hardware-Tested%20%26%20Verified-success)]()
 
 A fully analog metal detector using oscillators and multistage MOSFET amplifier circuits. This project explores the practical application of analog circuit design principles, including LC oscillators, frequency mixing, filtering, amplification, and PCB implementation.
 
@@ -57,7 +61,7 @@ The frequency difference increases when metal is near, producing a higher pitch 
 
 The oscillator outputs are combined through a nonlinear MOSFET mixer stage.
 
-The mixer generates multiple frequency components, with the difference frequency: f_difference = |f_static - f_variable|
+The mixer generates multiple frequency components, with the difference frequency: $$f_{\text{diff}} = |f_{\text{static}} - f_{\text{variable}}|$$
 being the signal used for detection.
 
 ---
@@ -68,7 +72,7 @@ A low-pass filter removes unwanted high-frequency mixer products, effectively ou
 
 Designed cutoff frequency:
 
-- ~15 kHz (humans cant hear over 20kHz anyways)
+- ~15 kHz (humans can't hear over 20kHz anyways)
 
 ---
 
