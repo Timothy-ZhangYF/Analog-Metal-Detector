@@ -1,5 +1,5 @@
 # Analog-Metal-Detector
-[![EDA](https://img.shields.io/badge/Altium-blue)]()
+[![EDA](https://img.shields.io/badge/PCB-Altium-blue)]()
 [![Simulation](https://img.shields.io/badge/Simulation-LTspice-orange)]()
 [![Type](https://img.shields.io/badge/Design-Discrete%20Analog-brightgreen)]()
 
